@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { PowerBtn } from "../components/AllSvgs";
+import { mediaQueries } from "../components/Themes";
 
 const Home = styled.button`
   position: fixed;
@@ -31,6 +32,16 @@ const Home = styled.button`
     text-decoration: none;
     colour: inherit;
   }
+
+  ${mediaQueries(40)`
+    width: 2rem;
+    height: 2rem;
+     svg{
+       width:20px;
+       height:20px;
+     }
+
+ `};
 `;
 const HomeButton = () => {
   return (
