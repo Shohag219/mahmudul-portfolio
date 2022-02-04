@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Me from "../assets/Images/profile-img.png";
 import { motion } from "framer-motion";
 import { mediaQueries } from "./Themes";
+import PDF from "../assets/Resume/mahmudul-resume (6).pdf";
 
 const Box = styled(motion.box)`
   width: 65vw;
@@ -151,8 +152,30 @@ const Text = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
 
-  & > *:last-child {
+  & > *:nth-child(3) {
     color: ${(props) => `rgba(${props.theme.bodyRgba},0.6)`};
+    font-size: calc(0.5rem + 1.5vw);
+    font-weight: 300;
+
+    ${mediaQueries(40)`
+    font-size: calc(0.5rem + 1vw);
+
+
+`};
+  }
+
+  ${mediaQueries(40)`
+    font-size: calc(1rem + 1.5vw);
+
+
+`};
+  ${mediaQueries(20)`
+     padding: 1rem;
+
+
+
+`};
+  & > *:nth-child(4) {
     font-size: calc(0.5rem + 1.5vw);
     font-weight: 300;
 
@@ -198,6 +221,29 @@ const Intro = () => {
           <h1>Hi,</h1>
           <h2>I'm M Hasan.</h2>
           <h6>I Design and Code Simple yet Beautiful Website.</h6>
+
+          <a
+            download
+            target="_blank"
+            rel="noreferrer"
+            href={PDF}
+            style={{
+              textDecoration: "none",
+              border: "1px solid white",
+              padding: "0.4rem calc(0.5rem + 0.5vw)",
+              borderRadius: "0 0 0 50px",
+              font_family: "Karla",
+              textAlign: "center",
+              outline: "none",
+              marginTop: "10px",
+              color: "white",
+              hover: {
+                backgroundColor: "red",
+              },
+            }}
+          >
+            My Resume
+          </a>
         </Text>
       </SubBox>
       <SubBox>

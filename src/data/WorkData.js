@@ -1,61 +1,77 @@
 export const Work = [
-    {
-        id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
-        
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
-    },
-    {
-        id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
-        
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
-        
-    },
-    {
-        id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
-        
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
-    },
-    {
-        id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
-        
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
-       
-    },{
-        id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
-        
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
-        
-    },
-    {
-        id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
-        
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
-        
-    },
-    
-  
-] 
+  {
+    id: 1,
+    name: "BIKE-SELL",
+    description:
+      "A full Stack web application based on MERN. This is an e-commerce website. User can order any kind of bike and they see what they are orders in the dashboard if the user login. ",
+    tags: ["MERN", "tailwind css"],
+
+    demo: "https://bikesell-new.web.app/",
+    github: "https://github.com/Shohag219/bike-sell-client",
+  },
+  {
+    id: 2,
+    name: "Medilab-doctors",
+    description:
+      "Doctors web application. In this web application, users can book appointments if the user logs in. There are also male and female doctors available.",
+    tags: ["React", "Node", "Express", "firebase", "React-Bootstrap"],
+
+    demo: "https://simple-ema-jhon-81a43.web.app/",
+    github: "https://github.com/Shohag219/health-care-website",
+  },
+  {
+    id: 3,
+    name: "Resort",
+    description:
+      "This website is fully functional and responsive. On this site, users can book resort if the user log in, Users can manage their booking and if needed users can cancel the booking.",
+    tags: ["MERN", "React-Bootstrap"],
+
+    demo: "https://travel-website-assaingment-11.web.app/",
+    github: "https://github.com/Shohag219/hotel-website",
+  },
+  {
+    id: 4,
+    name: "Scientific Calculator",
+    description: "Users can do any functional math in this Calculator.",
+    tags: ["HTML", "CSS", "Javascript"],
+
+    demo: "https://scientific-calculator-calc.netlify.app/",
+    github: "https://github.com/Shohag219/scientific-calculator",
+  },
+  {
+    id: 5,
+    name: "BARBER SHOP",
+    description: "S simple web Design",
+    tags: ["HTML", "CSS", "Javascript"],
+
+    demo: "https://best-barber.netlify.app/",
+    github: "https://github.com/Shohag219/barber-shop",
+  },
+  {
+    id: 6,
+    name: "Honda CBR",
+    description: "A reponsive Honda Collection web application",
+    tags: ["react", "react-router-dom", "firebase", "react-bootstrap"],
+
+    demo: "https://honda-cbr-main-projects.netlify.app/",
+    github: "https://github.com/Shohag219/honda-web",
+  },
+  {
+    id: 7,
+    name: "food",
+    description: "A Simple Design",
+    tags: ["HTML", "CSS", "js"],
+
+    demo: "https://honda-cbr-main-projects.netlify.app/",
+    github: "https://github.com/Shohag219/honda-web",
+  },
+  {
+    id: 8,
+    name: "Stop Watch",
+    description: "A Simple Stop Watch",
+    tags: ["HTML", "CSS", "js"],
+
+    demo: "https://stop-watch-w.netlify.app/",
+    github: "https://github.com/Shohag219/stop-watch",
+  },
+];
